@@ -1,0 +1,43 @@
+                        <button type="submit" class="btn btn-primary btn-block">Send Message <i class='bx bx-send'></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <a href="#">Obaid<span>.</span></a>
+            </div>
+            
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/obaid-ul-hassan-168490322" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/account" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                <a href="mailto:obaidulhassan18646@gmail.com" aria-label="Email"><i class='bx bxs-envelope'></i></a>
+            </div>
+            
+            <div class="footer-copyright">
+                <p>&copy; 2026 Muhammad Obaid ul Hassan. All rights reserved.</p>
+            </div>
+        </div>
+        
+        <a href="#home" class="back-to-top" aria-label="Back to top">
+            <i class='bx bx-up-arrow-alt'></i>
+        </a>
+    </footer>
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <!-- Script to kill any old Service Workers from Urban E-commerce site -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(function(registrations) {
+                for(let registration of registrations) {
+                    registration.unregister();
+                }
+            });
+        }
+    </script>
+</body>
+</html>
