@@ -1,0 +1,36 @@
+:root {
+    /* Colors - Deep Space AI Theme */
+    --bg-primary: #0A0E14;
+    --bg-secondary: #12161F;
+    --accent-primary: #00E5CC; /* Electric Cyan */
+    --accent-secondary: #7C5CFF; /* Soft Violet */
+    --text-primary: #F2F4F7;
+    --text-secondary: #98A2B3;
+    --border-color: #232836;
+    /* Typography */
+    --font-heading: 'Sora', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    /* Spacing & Layout */
+    --section-padding: 100px 0;
+    --container-width: 1140px;
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    --transition-fast: 0.2s ease-out;
+    --transition-normal: 0.3s ease-out;
+}
+/* 
+   ==========================================================================
+   Reset & Base Styles
+   ========================================================================== 
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: var(--font-body);
